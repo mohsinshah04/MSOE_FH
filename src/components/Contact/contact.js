@@ -33,7 +33,7 @@ const Contact = () => {
     return (
         <section id="contactPage">
             <div id="clients">
-                <h1 className="contactPageTitle">My Affiliations</h1>
+                <h1 className="contactPageTitle">Our Sponsors</h1>
                 <p className="clientDesc">I have had the opportunity to join organizations and obtain certificates. Some of the organizations and certificates i've done include</p>
             <div className="clientImgs">
                 <img src={ColorStack} alt="Client" className="clientImg" />
