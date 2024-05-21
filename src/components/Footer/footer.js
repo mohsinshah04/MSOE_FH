@@ -4,7 +4,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer className="footer">
-        Copyright &#169; Mohsin Shah
+        Copyright &#169; Mozee Motorsports
     </footer>
   )
 }

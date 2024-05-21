@@ -1,15 +1,12 @@
 import React from 'react'
 import './works.css'
-import TaApp from '../../assets/TaApp.jpg'
-import TicTacToe from '../../assets/TicTacToe.jpg'
-import BookRecs from '../../assets/BookRec.jpg'
 import ComingSoon from '../../assets/comingSoon.jpg'
 
 const Works = () => {
   const projects = [
-    { img: TaApp, alt: "TA Scheduling App", link: "https://github.com/mohsinshah04/ta_project", text: "TA Scheduling App" },
-    { img: TicTacToe, alt: "TicTacToe", link: "https://github.com/mohsinshah04/Tic-Tac-Toe", text: "AI Tic-Tac-Toe" },
-    { img: BookRecs, alt: "BookRecs", link: "https://github.com/mohsinshah04/BookRecs", text: "Book Recs Site" },
+    { img: ComingSoon, alt: "ComingSoon", link: "", text: "Coming Soon" },
+    { img: ComingSoon, alt: "ComingSoon", link: "", text: "Coming Soon" },
+    { img: ComingSoon, alt: "ComingSoon", link: "", text: "Coming Soon" },
     { img: ComingSoon, alt: "ComingSoon", link: "", text: "Coming Soon" },
     { img: ComingSoon, alt: "ComingSoon", link: "", text: "Coming Soon" },
     { img: ComingSoon, alt: "ComingSoon", link: "", text: "Coming Soon" },
@@ -23,13 +20,10 @@ const Works = () => {
         {projects.map((project, index) => (
           <div key={index} className="worksItem">
             <img src={project.img} alt={project.alt} className="worksImg" />
-            <div className="overlay">
-              <a href={project.link} className="worksLink" target="_blank" rel="noopener noreferrer">{project.text}</a>
-            </div>
           </div>
         ))}
       </div>
-      <a href="https://github.com/mohsinshah04" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.instagram.com/mozeemotorsports/" target="_blank" rel="noopener noreferrer">
         <button className="worksBtn">See More</button>
       </a>
     </section>
