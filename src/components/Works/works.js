@@ -14,8 +14,8 @@ const Works = () => {
 
   return (
     <section id='works'>
-      <h2 className="worksTitle">My Projects</h2>
-      <span className="worksDesc">I take pride in my attention to detail and staying organized in my work. As a CS student, I'm eager to develop my skills to solve real-world problems and help businesses achieve their goals through innovative software solutions</span>
+      <h2 className="worksTitle">Gallery</h2>
+      <span className="worksDesc">enter quick msg abt gallery</span>
       <div className="worksImgs">
         {projects.map((project, index) => (
           <div key={index} className="worksItem">
