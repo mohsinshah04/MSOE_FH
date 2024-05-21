@@ -63,11 +63,11 @@
     color: white;
     border: none;
     border-radius: 0.5rem;
-    background: rgb(40, 40, 40);
+    background: lightgray;
 }
 
 .submitBtn {
-    background: rgb(40, 40, 40);
+    background: rgb(80, 80, 80);
     color: white;
     text-emphasis-color: white;
     border: none;
@@ -88,5 +88,5 @@
     width: 3rem;
     margin: 0 0.75rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
