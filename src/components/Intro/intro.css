@@ -8,11 +8,11 @@
 }
 .bg {
     position: absolute;
-    top: -7rem;
+    top: 0rem;
     right: 0;
     z-index: -1;
     object-fit: cover;
-    height: 105vh;
+    height: 85vh;
 }
 
 .introContent {
@@ -44,7 +44,8 @@
 
 .btn {
     width: 15rem;
-    background: white;
+    background: rgb(213, 4, 4);
+    color: white;
     margin: 1rem 0;
     padding: 0.75rem 1.5rem;
     border: none;

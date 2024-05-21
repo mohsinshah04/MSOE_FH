@@ -1,5 +1,5 @@
 .navbar {
-    background: rgb(30, 30, 30);
+    background: white;
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -14,7 +14,7 @@
 }
 .logo {
     object-fit: cover;
-    height: 3rem;
+    height: 4.5rem;
     width: 4rem;
 }
 .desktopMenuListItem {
@@ -30,13 +30,16 @@
 .desktopMenuBtn {
     background: white;
     color: black;
-    border: none;
+    border: 1px black solid;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 1rem;
     border-radius: 2rem;
 
+}
+.desktopMenuBtn:hover {
+    color: red;
 }
 .desktopMenuImg {
     object-fit: cover;
