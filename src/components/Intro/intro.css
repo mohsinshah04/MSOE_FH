@@ -69,8 +69,8 @@
 }
 @media screen and (max-width:480px) {
     .bg {
-        right: -30vw;
-        top: -15rem;
-        height: 117vh;
+        right: 15vw;
+        top: 0rem;
+        height: 40vh;
     }
 }
