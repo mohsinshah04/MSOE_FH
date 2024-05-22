@@ -17,9 +17,8 @@ import Evology from '../../assets/evology-logo.png'
 import HE from '../../assets/HE-logo.png'
 import IEEE from '../../assets/IEEE-logo.png'
 
-import LinkedInIcon from '../../assets/linkedIn-icon.png'
-import TikTokIcon from '../../assets/tiktok.png'
-import InstagramIcon from '../../assets/instagram.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faTiktok, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
     const form = useRef();
@@ -73,13 +72,13 @@ const Contact = () => {
                     <button type='submit' value='Send' className="submitBtn">Submit</button>
                     <div className="links">
                         <a href="https://www.linkedin.com/in/mozee-motorsports/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
-                            <img src={LinkedInIcon} alt="LinkedIn" className="link" />
+                            <FontAwesomeIcon icon={faLinkedin} className='link'/>
                         </a>
                         <a href="https://www.tiktok.com/@mozee.motorsports?_t=8mWbeQualFm&_r=1" target="_blank" rel="noopener noreferrer">
-                            <img src={TikTokIcon} alt="tiktok" className="link" />
+                            <FontAwesomeIcon icon={faTiktok} className='link'/>
                         </a>
                         <a href="https://www.instagram.com/mozeemotorsports/" target="_blank" rel="noopener noreferrer">
-                            <img src={InstagramIcon} alt="ig" className="link" />
+                            <FontAwesomeIcon icon={faInstagram} className='link'/>
                         </a>
                     </div>
                 </form>
