@@ -1,8 +1,7 @@
 import React from 'react'
 import './intro.css'
 import bg from '../../assets/MozzeLogo.jpg'
-import btnImg from '../../assets/hireme.png'
-import pdf from '../../assets/Mohsin_Shah_Resume.pdf'
+import pdf from '../../assets/car.png'
 
 
 const Intro = () => {
@@ -14,7 +13,7 @@ const Intro = () => {
 
     link.href = pdfUrl;
 
-    link.download = "Mohsin_Shah_Resume.pdf"; // specify the filename
+    link.download = "ex.pdf"; // specify the filename
 
     document.body.appendChild(link);
 
