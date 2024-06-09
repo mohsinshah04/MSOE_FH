@@ -43,7 +43,7 @@ const Contact = () => {
         <section id="contactPage">
             <div id="clients">
                 <h1 className="contactPageTitle">Our Sponsors</h1>
-                <p className="clientDesc">enter thank you msg for sponsors</p>
+                <p className="clientDesc">Thank you to our sponsors for their generous support and partnership. Their contributions are vital to our success and are deeply appreciated!</p>
             <div className="clientImgs">
                 <img src={SF} alt="Client" className="clientImg" />
                 <img src={SAE} alt="Client" className="clientImg" />
