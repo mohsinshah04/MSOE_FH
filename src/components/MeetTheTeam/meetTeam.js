@@ -1,4 +1,5 @@
 import React from 'react'
+import './meetTeam.css'
 
 const meetTeam = () => {
   return (

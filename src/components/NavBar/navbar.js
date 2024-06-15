@@ -4,6 +4,8 @@ import logo from '../../assets/MozzeLogo.jpg';
 import contactImg from '../../assets/contact.png';
 import menu from '../../assets/menu.png'
 import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
+import { Link as RouterLink } from 'react-router-dom';
 
 
 const Navbar = () => {
