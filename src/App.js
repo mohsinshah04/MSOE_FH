@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./components/NavBar/navbar";
 import Intro from "./components/Intro/intro";
-import Skills from "./components/Skills/skills";
+import About from "./components/About/about";
 import Gallery from "./components/Gallery/gallery";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
@@ -16,7 +16,7 @@ function App() {
           <>
             <Navbar />
             <Intro />
-            <Skills />
+            <About />
             <Gallery />
             <Contact />
             <Footer />
