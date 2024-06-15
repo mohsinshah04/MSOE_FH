@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="dropdownContainer">
           <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">About</Link>
           <div className="dropdownContent">
-            <Link to='team' spy={true} smooth={true} offset={-50} duration={500}>Meet The Team</Link>
+            <Link to='meetTeam.js' spy={true} smooth={true} offset={-50} duration={500}>Meet The Team</Link>
             <Link to='history' spy={true} smooth={true} offset={-50} duration={500}>Our History</Link>
           </div>
         </div>
