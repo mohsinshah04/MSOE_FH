@@ -25,8 +25,8 @@ const Navbar = () => {
           </div>
         </div>
         
-        <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Gallery</Link>
-        <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Sponsors</Link>
+        <Link activeClass='active' to='gallery' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Gallery</Link>
+        <Link activeClass='active' to='sponsors' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Sponsors</Link>
       </div>
       <button className="desktopMenuBtn" onClick={()=> {document.getElementById('contact').scrollIntoView({behavior: 'smooth'});}}>
         <img src={contactImg} alt="" className="desktopMenuImg" />Contact Us</button>

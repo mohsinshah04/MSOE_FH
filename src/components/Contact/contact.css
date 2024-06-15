@@ -15,18 +15,18 @@
     margin-bottom: 1rem;
 }
 
-.clientDesc {
+.sponsorDesc {
     font-weight: 300;
     font-size: 1rem;
 }
 
-.clientImgs {
+.sponsorImgs {
     margin: 1rem 0;
     display: flex;
     flex-wrap: wrap;
 }
 
-.clientImg {
+.sponsorImg {
     object-fit: cover;
     width: 23%;
     min-width: 9rem;
@@ -34,7 +34,7 @@
     padding: 0.25rem;
 }
 
-#clients {
+#sponsors {
     padding: 2rem;
 }
 

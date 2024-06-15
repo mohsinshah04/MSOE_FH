@@ -41,24 +41,24 @@ const Contact = () => {
     };
     return (
         <section id="contactPage">
-            <div id="clients">
+            <div id="sponsors">
                 <h1 className="contactPageTitle">Our Sponsors</h1>
-                <p className="clientDesc">Thank you to our sponsors for their generous support and partnership. Their contributions are vital to our success and are deeply appreciated!</p>
-            <div className="clientImgs">
-                <img src={SF} alt="Client" className="clientImg" />
-                <img src={SAE} alt="Client" className="clientImg" />
-                <img src={Regal} alt="Client" className="clientImg" />
-                <img src={SolidWorks} alt="Client" className="clientImg" />
-                <img src={Polaris} alt="Client" className="clientImg" />
-                <img src={OZ} alt="Client" className="clientImg" />
-                <img src={MilTool} alt="Client" className="clientImg" />
-                <img src={JWS} alt="Client" className="clientImg" />
-                <img src={Hoosier} alt="Client" className="clientImg" />
-                <img src={Hayes} alt="Client" className="clientImg" />
-                <img src={Generac} alt="Client" className="clientImg" />
-                <img src={Evology} alt="Client" className="clientImg" />
-                <img src={HE} alt="Client" className="clientImg" />
-                <img src={IEEE} alt="Client" className="clientImg" />
+                <p className="sponsorDesc">Thank you to our sponsors for their generous support and partnership. Their contributions are vital to our success and are deeply appreciated!</p>
+            <div className="sponsorImgs">
+                <img src={SF} alt="sponsor" className="sponsorImg" />
+                <img src={SAE} alt="sponsor" className="sponsorImg" />
+                <img src={Regal} alt="sponsor" className="sponsorImg" />
+                <img src={SolidWorks} alt="sponsor" className="sponsorImg" />
+                <img src={Polaris} alt="sponsor" className="sponsorImg" />
+                <img src={OZ} alt="sponsor" className="sponsorImg" />
+                <img src={MilTool} alt="sponsor" className="sponsorImg" />
+                <img src={JWS} alt="sponsor" className="sponsorImg" />
+                <img src={Hoosier} alt="sponsor" className="sponsorImg" />
+                <img src={Hayes} alt="sponsor" className="sponsorImg" />
+                <img src={Generac} alt="sponsor" className="sponsorImg" />
+                <img src={Evology} alt="sponsor" className="sponsorImg" />
+                <img src={HE} alt="sponsor" className="sponsorImg" />
+                <img src={IEEE} alt="sponsor" className="sponsorImg" />
 
             </div>
             </div>

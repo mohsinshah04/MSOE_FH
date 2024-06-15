@@ -1,16 +1,16 @@
 import React from 'react'
-import './works.css'
+import './gallery.css'
 import BeholdWidget from '@behold/react'
 
-const Works = () => {
+const Gallery = () => {
 
   return (
-    <section id='works'>
-      <h2 className="worksTitle">Gallery</h2>
+    <section id='gallery'>
+      <h2 className="galleryTitle">Gallery</h2>
       
       <BeholdWidget feedId='UaeJTMCGan7Zdp7sQULr'/>
     </section>
   );
 }
 
-export default Works;
+export default Gallery;
