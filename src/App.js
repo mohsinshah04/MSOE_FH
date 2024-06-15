@@ -11,10 +11,10 @@ import MeetTeam from "./components/meetTeam/meetTeam"
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Routes>
         <Route path="/" element={
           <>
+            <Navbar />
             <Intro />
             <Skills />
             <Works />
