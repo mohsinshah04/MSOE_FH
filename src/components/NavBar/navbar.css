@@ -20,6 +20,7 @@
 .desktopMenuListItem {
     margin: 1rem;
     cursor: pointer;
+    color: black;
 }
 .desktopMenuListItem:hover {
     color: red;
@@ -93,7 +94,7 @@
 
 .dropdownContainer {
     position: relative;
-    display: inline-block; /* or flex, based on your design */
+    display: inline-block; 
 }
   
 .dropdownContent {
