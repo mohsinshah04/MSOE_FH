@@ -94,7 +94,7 @@
 
 .dropdownContainer {
     position: relative;
-    display: inline-block; /* or flex, based on your design */
+    display: inline-block; 
 }
   
 .dropdownContent {
