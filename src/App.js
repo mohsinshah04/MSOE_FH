@@ -11,20 +11,19 @@ import MeetTeam from "./components/meetTeam/meetTeam"
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Routes>
         <Route path="/" element={
           <>
-            <Navbar />
             <Intro />
             <Skills />
             <Works />
             <Contact />
-            <Footer />
           </>
         } />
         <Route path="/meetTeam" element={<MeetTeam />} />
       </Routes>
-
+      <Footer />
     </div>
   );
 }
