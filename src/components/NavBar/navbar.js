@@ -55,16 +55,18 @@ const Navbar = () => {
         <RouterLink to="/" onClick={() => handleScrollTo('intro')} className="desktopMenuListItem">Home</RouterLink>
         
         <div className="dropdownContainer">
-          <RouterLink to="/" onClick={() => handleScrollTo('skills')} className="desktopMenuListItem">About</RouterLink>
+          <RouterLink to="/" onClick={() => handleScrollTo('about')} className="desktopMenuListItem">About</RouterLink>
           <div className="dropdownContent">
             <RouterLink to='/meetTeam' onClick={scrollToTop}>Meet The Team</RouterLink>
-            <RouterLink to="/" onClick={() => handleScrollTo('history')}>Our History</RouterLink>
+            <RouterLink to='/' onClick={scrollToTop}>Our Pro</RouterLink>
+            <RouterLink to='/' onClick={scrollToTop}>Meet The Team</RouterLink>
           </div>
         </div>
         
-        <RouterLink to="/" onClick={() => handleScrollTo('works')} className="desktopMenuListItem">Gallery</RouterLink>
-        <RouterLink to="/" onClick={() => handleScrollTo('clients')} className="desktopMenuListItem">Sponsors</RouterLink>
+        <RouterLink to="/" onClick={() => handleScrollTo('gallery')} className="desktopMenuListItem">Gallery</RouterLink>
+        <RouterLink to="/" onClick={() => handleScrollTo('contactPage')} className="desktopMenuListItem">Sponsors</RouterLink>
       </div>
+      
       <button className="desktopMenuBtn" onClick={() => handleScrollTo('contact')}>
         <img src={contactImg} alt="Contact" className="desktopMenuImg" />Contact Us
       </button>
