@@ -57,9 +57,9 @@ const Navbar = () => {
         <div className="dropdownContainer">
           <RouterLink to="/" onClick={() => handleScrollTo('about')} className="desktopMenuListItem">About</RouterLink>
           <div className="dropdownContent">
-            <RouterLink to='/meetTeam' onClick={scrollToTop}>Meet The Team</RouterLink>
-            <RouterLink to='/' onClick={scrollToTop}>Our Pro</RouterLink>
-            <RouterLink to='/' onClick={scrollToTop}>Meet The Team</RouterLink>
+            <RouterLink to='/aboutUs' onClick={scrollToTop}>About Us</RouterLink>
+            <RouterLink to='/meetTeam' onClick={scrollToTop}>Meet The team</RouterLink>
+            <RouterLink to='/theCars' onClick={scrollToTop}>The Cars</RouterLink>
           </div>
         </div>
         
