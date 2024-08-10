@@ -9,7 +9,7 @@ import AppDesign from '../../assets/app-design.png'
 const abouts = () => {
   return (
     <section id='about'>
-        <span className="aboutTitle">About Us</span>
+        <span className="aboutTitle">What is Mozee Motorsports?</span>
         <span className="aboutDesc">The Milwaukee School of Engineering (MSOE) SAE Formula Hybrid Team is a dynamic and innovative group dedicated to pushing the boundaries of automotive engineering. With a commitment to excellence and a collaborative spirit, we strive to foster hands-on learning experiences for our members while representing MSOE on an international stage. Through tireless dedication and a drive for innovation, we aim to foster the next generation of engineers and prepare them to contribute to the advancement of automotive technology.</span>
         <div className="aboutBars">
             <div className="aboutBar">

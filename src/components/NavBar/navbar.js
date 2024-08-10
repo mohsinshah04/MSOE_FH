@@ -64,7 +64,7 @@ const Navbar = () => {
         </div>
         
         <RouterLink to="/" onClick={() => handleScrollTo('gallery')} className="desktopMenuListItem">Gallery</RouterLink>
-        <RouterLink to="/" onClick={() => handleScrollTo('contactPage')} className="desktopMenuListItem">Sponsors</RouterLink>
+        <RouterLink to="/" onClick={() => handleScrollTo('sponsor')} className="desktopMenuListItem">Sponsors</RouterLink>
       </div>
       
       <button className="desktopMenuBtn" onClick={() => handleScrollTo('contact')}>
