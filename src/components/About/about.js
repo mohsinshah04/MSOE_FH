@@ -15,22 +15,22 @@ const abouts = () => {
             <div className="aboutBar">
                 <img src={UIDesign} alt="UIDesign" className="aboutBarImg" />
                 <div className="aboutBarText">
-                    <h2>Meet The Team</h2>
-                    <p>meet the team msg</p>
+                    <h2>About Us</h2>
+                    <p>Learn more about Mozee Motersports!</p>
                 </div>
             </div>
             <div className="aboutBar">
                 <img src={WebDesign} alt="WebDesign" className="aboutBarImg" />
                 <div className="aboutBarText">
-                    <h2>Projects</h2>
-                    <p>msg about projects</p>
+                    <h2>Meet The Team</h2>
+                    <p>Learn more about the brilliant members of MM</p>
                 </div>
             </div>
             <div className="aboutBar">
                 <img src={AppDesign} alt="AppDesign" className="aboutBarImg" />
                 <div className="aboutBarText">
-                    <h2>The cars</h2>
-                    <p>sum abt how long you guys been around</p>
+                    <h2>The Cars</h2>
+                    <p>Learn more about the cars we have or are working on</p>
                 </div>
             </div>
         </div>
