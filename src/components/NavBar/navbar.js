@@ -57,19 +57,19 @@ const Navbar = () => {
         <div className="dropdownContainer">
           <RouterLink to="/" onClick={() => handleScrollTo('about')} className="desktopMenuListItem">About</RouterLink>
           <div className="dropdownContent">
-            <RouterLink to='/meetTeam' onClick={scrollToTop}>Meet The Team</RouterLink>
-            <RouterLink to='/' onClick={scrollToTop}>Our Pro</RouterLink>
-            <RouterLink to='/' onClick={scrollToTop}>Meet The Team</RouterLink>
+            <RouterLink to='/aboutUs' onClick={scrollToTop}>About Us</RouterLink>
+            <RouterLink to='/meetTeam' onClick={scrollToTop}>Meet The team</RouterLink>
+            <RouterLink to='/theCars' onClick={scrollToTop}>The Cars</RouterLink>
           </div>
         </div>
         
         <RouterLink to="/" onClick={() => handleScrollTo('gallery')} className="desktopMenuListItem">Gallery</RouterLink>
-        <RouterLink to="/" onClick={() => handleScrollTo('contactPage')} className="desktopMenuListItem">Sponsors</RouterLink>
+        <RouterLink to="/" onClick={() => handleScrollTo('sponsors')} className="desktopMenuListItem">Sponsors</RouterLink>
       </div>
       
-      <button className="desktopMenuBtn" onClick={() => handleScrollTo('contact')}>
+      <RouterLink to="/" onClick={() => handleScrollTo('contact')} className="desktopMenuBtn">
         <img src={contactImg} alt="Contact" className="desktopMenuImg" />Contact Us
-      </button>
+      </RouterLink>
 
       <img src={menu} alt="Menu" className='mobMenu' onClick={() => setShowMenu(!showMenu)} />
       <div className="navMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
