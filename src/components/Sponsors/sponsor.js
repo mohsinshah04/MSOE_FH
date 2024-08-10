@@ -1,3 +1,5 @@
+import './sponsor.css'
+
 import SF from '../../assets/SF-logo.png'
 import SAE from '../../assets/sae-logo.png'
 import Regal from '../../assets/Regal-logo.png'
@@ -12,8 +14,6 @@ import Generac from '../../assets/generac-logo.png'
 import Evology from '../../assets/evology-logo.png'
 import HE from '../../assets/HE-logo.png'
 import IEEE from '../../assets/IEEE-logo.png'
-
-import './sponsor.css'
 
 const sponsor = () => {
     return (

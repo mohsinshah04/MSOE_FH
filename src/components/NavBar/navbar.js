@@ -64,12 +64,12 @@ const Navbar = () => {
         </div>
         
         <RouterLink to="/" onClick={() => handleScrollTo('gallery')} className="desktopMenuListItem">Gallery</RouterLink>
-        <RouterLink to="/" onClick={() => handleScrollTo('sponsor')} className="desktopMenuListItem">Sponsors</RouterLink>
+        <RouterLink to="/" onClick={() => handleScrollTo('sponsors')} className="desktopMenuListItem">Sponsors</RouterLink>
       </div>
       
-      <button className="desktopMenuBtn" onClick={() => handleScrollTo('contact')}>
+      <RouterLink to="/" onClick={() => handleScrollTo('contact')} className="desktopMenuBtn">
         <img src={contactImg} alt="Contact" className="desktopMenuImg" />Contact Us
-      </button>
+      </RouterLink>
 
       <img src={menu} alt="Menu" className='mobMenu' onClick={() => setShowMenu(!showMenu)} />
       <div className="navMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
