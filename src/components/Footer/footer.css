@@ -3,8 +3,29 @@
     height: 4rem;
     background: whitesmoke;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: 300;
     font-size: small;
+    padding: 3rem;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    color: black;
+    object-fit: cover;
+    height: 2rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.copyright {
+    padding-top: 0.5rem;
 }

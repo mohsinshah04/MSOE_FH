@@ -7,6 +7,7 @@ import Gallery from "./components/Gallery/gallery";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
 import MeetTeam from "./components/meetTeam/meetTeam"
+import Sponsor from "./components/Sponsors/sponsor"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Intro />
             <About />
             <Gallery />
+            <Sponsor />
             <Contact />
           </>
         } />
