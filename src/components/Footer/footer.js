@@ -20,6 +20,7 @@ const Footer = () => {
         <div className="copyright">
           Copyright &#169; Mozee Motorsports
         </div>
+        {/* <div>Special Thanks to Mohsin Shah, Alrayan Amer, Mohammed Alfarrah, Abdelrahman Mohammad</div> */}
     </footer>
   )
 }

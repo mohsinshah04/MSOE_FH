@@ -50,7 +50,7 @@ const Navbar = () => {
   };
   return (
     <nav className="navbar">
-      <img src={logo} alt="Logo" className='logo' />
+      <img src={logo} alt="Logo" onClick={() => handleScrollTo('intro')} className='logo' />
       <div className="desktopMenu">
         <RouterLink to="/" onClick={() => handleScrollTo('intro')} className="desktopMenuListItem">Home</RouterLink>
         

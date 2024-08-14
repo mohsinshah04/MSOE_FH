@@ -20,7 +20,9 @@ const sponsor = () => {
         <div className='test'>
         <div id="sponsors">
             <h1 className="contactPageTitle">Our Sponsors</h1>
-            <p className="sponsorDesc">Thank you to our sponsors for their generous support and partnership. Their contributions are vital to our success and are deeply appreciated!</p>
+            <p className="sponsorDesc">A huge thank you to all our sponsors. Your generous contributions and encouragement are essential to our success. Thanks to your backing, we are able to pursue our engineering goals with passion and determination.
+<br/>Your support is more than just financial; it fuels our innovation, drives our ambition, and plays a crucial role in our journey. We are grateful for your belief in our vision and for being such an integral part of our pursuit of excellence. 
+</p>
             <div className="sponsorImgs">
                 <img src={SF} alt="sponsor" className="sponsorImg" />
                 <img src={SAE} alt="sponsor" className="sponsorImg" />
