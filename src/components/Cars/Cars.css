@@ -1,0 +1,25 @@
+.teambox {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow-x: auto; 
+}
+
+.car-card {
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .car-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .car-card h2 {
+    margin: 10px 0;
+  }

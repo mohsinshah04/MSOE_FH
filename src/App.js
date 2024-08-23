@@ -9,7 +9,7 @@ import Footer from "./components/Footer/footer";
 import AboutUs from "./components/aboutUs/aboutUs"
 import MeetTeam from "./components/meetTeam/meetTeam"
 import Sponsor from "./components/Sponsors/sponsor"
-import TheCars from "./components/theCars/theCars"
+import Cars from "./components/Cars/Cars"
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         } />
         <Route path="/meetTeam" element={<MeetTeam />} />
         <Route path="/aboutUs" element={<AboutUs />} />
-        <Route path="/theCars" element={<TheCars />} />
+        <Route path="/theCars" element={<Cars />} />
       </Routes>
       <Footer />
     </div>
