@@ -12,13 +12,40 @@
     padding-bottom: 5rem;
 }
 
+.about-title {
+    font-size: 75px;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+}
+
 .about-container {
-    padding: 1rem;
+    padding: 2rem;
     border-style: solid;
     border-radius: 20px;
     border-color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.who-body, .what-body {
-    padding-bottom: 1.5rem;
+.who-body, .what-body, .why-body {
+    font-weight: bold;
+    padding: 2rem;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.who-title {
+    padding-bottom: 1rem;
+}
+
+ .what-title, .why-title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.who-title, .what-title, .why-title {
+    font-weight: bolder;
+    font-size: 35px;
+    color: red;
 }

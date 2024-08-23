@@ -4,7 +4,7 @@ import data from './cars.json'
 const Cars = () => {
 
   return (
-    <div>
+    <div className='teambox'>
         {
             data.map( car => {
                 return (

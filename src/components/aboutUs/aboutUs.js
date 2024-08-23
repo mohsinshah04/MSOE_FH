@@ -5,11 +5,11 @@ import './aboutUs.css'
 const aboutUs = () => {
   return (
     <div className="teambox">
-      <h1 className="about-title">About Us</h1>
+      <div className="about-title">ABOUT US</div>
       <div className='about-container'>
 
         <div className='about-who'>
-          <h2 className='who-title'> WHO WE ARE?</h2>
+          <div className='who-title'> WHO ARE WE?</div>
           <div className='who-body'>
             Mozee Motorsports is a student organization at the Milwaukee School of Engineering (MSOE) in Milwaukee, Wisconsin.
             The organization began in the 1990's and competed in the internal combustion category and took the step forward  into
@@ -21,7 +21,7 @@ const aboutUs = () => {
         </div>
 
         <div className='about-what'>
-          <h2 className='what-title'> WHAT IS SAE FORMULA?</h2>
+          <div className='what-title'> WHAT IS SAE FORMULA?</div>
           <div className='what-body'>
             The SAE Formula Hybrid Competition is an engineering challenge organized by the Society of Automotive Engineers (SAE) 
             that focuses on hybrid and electric vehicle technology. It is designed for university students to showcase their 
@@ -35,7 +35,7 @@ const aboutUs = () => {
         </div>
 
         <div className='about-why'>
-          <h2 className='why-title'> WHY ARE WE DOING THIS? </h2>
+          <div className='why-title'> WHY ARE WE DOING THIS? </div>
           <div className='why-body'>
             The value of being part of a student organization like Formula Hybrid is immense. Success in the competition can enhance
             a student’s resume and open doors to career opportunities in the automotive and engineering industries. It also 
