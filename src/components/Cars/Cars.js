@@ -18,6 +18,11 @@ const Cars = () => {
                         <p>0-60: {car.sixty}</p>
                         <p>Top Speed: {car.speed}</p>
                         <p>Drivetrain: {car.drivetrain}</p>
+                        <p>Battery: {car.battery}</p>
+                        <p>Suspension: {car.suspension}</p>
+                        <p>Front: {car.frontSuspension}</p>
+                        <p>Rear: {car.rearSuspension}</p>
+                        <p>Acheivements: {car.acheivments}</p>
                     </div>
                 )
             })
