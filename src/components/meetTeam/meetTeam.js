@@ -1,6 +1,6 @@
 import React from 'react'
 import './meetTeam.css'
-import teamstruc from "../../assets/teamstruc.png"
+import teamstruc from "../../assets/TeamFlowchart2025_08-19-24.png"
 
 const meetTeam = () => {
   return (
