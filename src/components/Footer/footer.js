@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
         <div className="links">
-          <a href="https://www.linkedin.com/in/mozee-motorsports/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/mozee-motorsports/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className='link'/>
           </a>
           <a href="https://www.tiktok.com/@mozee.motorsports?_t=8mWbeQualFm&_r=1" target="_blank" rel="noopener noreferrer">

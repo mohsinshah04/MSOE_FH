@@ -2,9 +2,5 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    vertical-align: top;
     overflow-x: auto; 
-    scale: auto;
-    height: auto;
-    width: auto;
 }

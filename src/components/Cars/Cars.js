@@ -22,7 +22,7 @@ const Cars = () => {
                         <p>Suspension: {car.suspension}</p>
                         <p>Front: {car.frontSuspension}</p>
                         <p>Rear: {car.rearSuspension}</p>
-                        <p>Acheivements: {car.acheivments}</p>
+                        <p>Acheivements: {car.acheivements}</p>
                     </div>
                 )
             })
