@@ -42,7 +42,8 @@ const Contact = () => {
     return (
         <section id="contact">
                 <h1 className="contactPageTitle">Contact Us </h1>
-                <span className="contactDesc">Please fill out the form below to contact us with any questions.- Form is currently down. Please email us at "mozee.motorsports@msoe.edu"</span>
+                <span className="contactDesc">Please fill out the form below to contact us with any questions.
+                    <br/>Form is currently down. Please email us at "formulahybrid@msoe.edu"</span>
                 <form className="contactForm" ref={form} onSubmit={sendEmail}>
                     <input type="text" className="name" placeholder='Your Name' name='from_name'/>
                     <input type="email" className="email" placeholder='Your Email' name='from_email'/>
