@@ -6,17 +6,35 @@
     overflow: hidden;
     position: relative;
 }
-.bg {
-    position:fixed;
-    top: 25rem;
+.bg1 {
+    position: absolute;
+    top: 0rem;
     right: 0rem;
+    object-fit: contain;
     z-index: -1;
-    width:100%;
-    height: 50%;
-    opacity: 75%;
-    
-    
+    width:65%;
+    opacity: 65%;
 }
+.bg2 {
+    position: absolute;
+    top: 17.5rem;
+    right: 0rem;
+    object-fit: contain;
+    z-index: -1;
+    width:65%;
+    opacity: 65%;
+}
+.bg3 {
+    position: absolute;
+    top: 35rem;
+    right: 0rem;
+    object-fit: contain;
+    z-index: -1;
+    width:65%;
+    opacity: 65%;
+}
+
+
 
 .introContent {
     height: 100vh;
@@ -28,6 +46,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-style: italic;
 }
 
 .hello {
@@ -36,18 +55,20 @@
 }
 
 .introName {
-    color: Red;
+    color: rgb(195, 0, 23);
 }
 
 .introPara {
     font-size: medium;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 1px;
+    font-style: italic;
+    color: rgb(75, 4, 12);
 }
 
 .btn {
     width: 15rem;
-    background: rgb(213, 4, 4);
+    background: rgb(220, 0, 23);
     color: white;
     margin: 1rem 0;
     padding: 0.75rem 1.5rem;
@@ -60,7 +81,7 @@
     height: 1rem;
 }
 @media screen and (max-width:840px) {
-    .bg {
+    .bg1 {
         right: -10vw;
     }
     .introContent {
@@ -71,7 +92,7 @@
     }
 }
 @media screen and (max-width:480px) {
-    .bg {
+    .bg1 {
         right: 15vw;
         top: 0rem;
         height: 40vh;

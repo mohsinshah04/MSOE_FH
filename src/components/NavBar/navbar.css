@@ -14,9 +14,9 @@
     font-size: larger;
 }
 .logo {
-    object-fit: cover;
+    object-fit:contain;
     height: 4.5rem;
-    width: 6rem;
+    width: 10rem;
 }
 .desktopMenuListItem {
     margin: 1rem;
@@ -24,9 +24,9 @@
     color: black;
 }
 .desktopMenuListItem:hover {
-    color: red;
+    color: rgbrgb(195, 0, 23);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid rgb(195, 0, 23);
 }
 
 .desktopMenuBtn {
@@ -42,7 +42,7 @@
 
 }
 .desktopMenuBtn:hover {
-    color: red;
+    color: rgb(195, 0, 23);
 }
 .desktopMenuImg {
     object-fit: cover;
@@ -52,9 +52,9 @@
 }
 
 .active {
-    color: red;
+    color:rgb(195, 0, 23);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid rgb(195, 0, 23);
 }
 
 .mobMenu {
@@ -122,5 +122,5 @@
   
 .dropdownContent a:hover {
     background-color: #f1f1f1;
-    color: red;
+    color: rgb(195, 0, 23);
 }
