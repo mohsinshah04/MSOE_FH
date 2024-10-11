@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import bg from '../../assets/MozzeLogo.jpg'
+import bg from '.../public/MSOE_logo_FULL.png'
 import pdf from '../../assets/car.png'
 
 
