@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 import './navbar.css';
-import logo from '../../assets/MozzeLogo.jpg';
+import logo from '../../assets/MSOE_logo_FULL.jpg';
 import contactImg from '../../assets/contact.png';
 import menu from '../../assets/menu.png';
 
