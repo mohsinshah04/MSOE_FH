@@ -4,3 +4,8 @@
     align-items: center; 
     overflow-x: auto; 
 }
+
+.team {
+    width: 100%;
+    height: 70%;
+}

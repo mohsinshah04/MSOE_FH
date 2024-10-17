@@ -1,4 +1,4 @@
-#contactPage {
+#contact {
     min-height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 60rem;
@@ -14,30 +14,6 @@
     font-size: 3rem;
     margin-bottom: 1rem;
 }
-
-.sponsorDesc {
-    font-weight: 300;
-    font-size: 1rem;
-}
-
-.sponsorImgs {
-    margin: 1rem 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.sponsorImg {
-    object-fit: cover;
-    width: 23%;
-    min-width: 9rem;
-    margin: auto;
-    padding: 0.25rem;
-}
-
-#sponsors {
-    padding: 2rem;
-}
-
 .contactDesc {
     padding: 1rem;
     font-size: medium;
@@ -75,19 +51,4 @@
     margin: 2rem;
     padding: 0.75rem 3.5rem;
     cursor: pointer;
-}
-
-.links {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.link {
-    color: black;
-    object-fit: cover;
-    height: 2rem;
-    width: 3rem;
-    margin: 0 0.75rem;
-    border: none;
-    border-radius: 2rem;
 }

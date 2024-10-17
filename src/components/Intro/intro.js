@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import bg from '../../assets/MozzeLogo.jpg'
+import bg from '../../assets/MSOE_logo_FULL.png'
 import pdf from '../../assets/car.png'
 
 
@@ -30,7 +30,9 @@ const Intro = () => {
             <p className="introPara">We are a world champion hybrid formula <br /> student team based out of the Milwaukee <br /> School of Engineering</p>
             {/*<button className="btn" onClick={onButtonClick}><img src={btnImg} alt="shop" className='btnImg' />Checkout our Shop</button> */}
         </div>
-        <img src={bg} alt="Profile" className="bg" />
+        <img src={bg} alt="Profile" className="bg1" />
+        <img src={bg} alt="Profile" className="bg2" />
+        <img src={bg} alt="Profile" className="bg3" />
     </section>
   );
 }

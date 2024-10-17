@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 import './navbar.css';
-import logo from '../../assets/MozzeLogo.jpg';
+import logo from '../../assets/MSOE_logo_FULL.png';
 import contactImg from '../../assets/contact.png';
 import menu from '../../assets/menu.png';
 
@@ -50,24 +50,26 @@ const Navbar = () => {
   };
   return (
     <nav className="navbar">
-      <img src={logo} alt="Logo" className='logo' />
+      <img src={logo} alt="Logo" onClick={() => handleScrollTo('intro')} className='logo' />
       <div className="desktopMenu">
         <RouterLink to="/" onClick={() => handleScrollTo('intro')} className="desktopMenuListItem">Home</RouterLink>
         
         <div className="dropdownContainer">
-          <RouterLink to="/" onClick={() => handleScrollTo('skills')} className="desktopMenuListItem">About</RouterLink>
+          <RouterLink to="/" onClick={() => handleScrollTo('about')} className="desktopMenuListItem">About</RouterLink>
           <div className="dropdownContent">
-            <RouterLink to='/meetTeam' onClick={scrollToTop}>Meet The Team</RouterLink>
-            <RouterLink to="/" onClick={() => handleScrollTo('history')}>Our History</RouterLink>
+            <RouterLink to='/aboutUs' onClick={scrollToTop}>About Us</RouterLink>
+            <RouterLink to='/meetTeam' onClick={scrollToTop}>Meet The team</RouterLink>
+            <RouterLink to='/theCars' onClick={scrollToTop}>The Cars</RouterLink>
           </div>
         </div>
         
-        <RouterLink to="/" onClick={() => handleScrollTo('works')} className="desktopMenuListItem">Gallery</RouterLink>
-        <RouterLink to="/" onClick={() => handleScrollTo('clients')} className="desktopMenuListItem">Sponsors</RouterLink>
+        <RouterLink to="/" onClick={() => handleScrollTo('gallery')} className="desktopMenuListItem">Gallery</RouterLink>
+        <RouterLink to="/" onClick={() => handleScrollTo('sponsors')} className="desktopMenuListItem">Sponsors</RouterLink>
       </div>
-      <button className="desktopMenuBtn" onClick={() => handleScrollTo('contact')}>
+      
+      <RouterLink to="/" onClick={() => handleScrollTo('contact')} className="desktopMenuBtn">
         <img src={contactImg} alt="Contact" className="desktopMenuImg" />Contact Us
-      </button>
+      </RouterLink>
 
       <img src={menu} alt="Menu" className='mobMenu' onClick={() => setShowMenu(!showMenu)} />
       <div className="navMenu" style={{ display: showMenu ? 'flex' : 'none' }}>

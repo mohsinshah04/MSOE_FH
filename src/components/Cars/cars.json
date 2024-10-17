@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "MP6",
+        "engine": "2013 KTM 250 SX-F 4-Stroke Engine",
+        "electric": "Parker GVK",
+        "horsepower": "100 HP",
+        "weight": "900 lbs",
+        "sixty": "TBD",
+        "speed": "TBD",
+        "drivetrain": "Rear Engine - Rear Wheel Drive",
+        "battery": "TBD",
+        "frontSuspension": "Double A-Arm - Pushrod Suspension",
+        "rearSuspension": "Double A-Arm - Pushrod Suspension",
+        "acheivements": "2024 Hybrid Category (1st)",
+        "image": "mp6-test.jpg"
+    },
+    {
+        "id": 2,
+        "name": "MP5",
+        "engine": "Swiss Auto SA250",
+        "electric": "Parker GVK",
+        "horsepower": "98HP",
+        "weight": "800 lbs",
+        "sixty": "N/A",
+        "speed": "N/A",
+        "drivetrain": "Mid Engine - Rear Wheel Drive",
+        "battery": "N/A",
+        "frontSuspension": "Double A-Arm - Pushrod Suspension",
+        "rearSuspension": "Double A-Arm - Pullrod Suspension",
+        "acheivements": "2022 Hybrid Category (1st)",
+        "image": "MP5_photo.jpg"
+    },
+    {
+        "id": 3,
+        "name": "MP38",
+        "engine": "Honda CBR 250",
+        "electric": "AGNI 95R",
+        "horsepower": "63HP",
+        "weight": "797 lbs",
+        "sixty": "N/A",
+        "speed": "N/A",
+        "drivetrain": "Mid Engine - Rear Wheel Drive",
+        "battery": "N/A",
+        "frontSuspension": "Double A-Arm - Pullrod Suspension",
+        "rearSuspension": "Double A-Arm - Pushrod Suspension",
+        "acheivements": "2018 Hybrid Category (1st)",
+        "image": "mp38.jpg"
+    }
+]
