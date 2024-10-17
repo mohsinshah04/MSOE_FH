@@ -32,7 +32,7 @@ const Navbar = () => {
     } else {
       const element = document.getElementById(section);
       if (element) {
-        const offset = -50; 
+        const offset = -100; 
         const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
         const offsetPosition = elementPosition + offset;
         window.scrollTo({
