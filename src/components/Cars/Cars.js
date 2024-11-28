@@ -21,7 +21,7 @@ const Cars = () => {
                         <p>Battery: {car.battery}</p>
                         <p>Suspension: {car.suspension}</p>
                         <p>Front: {car.frontSuspension}</p>
-                        <p>Rear: {car.rearSuspension}</p>
+                        <p> Rear: {car.rearSuspension}</p>
                         <p>Acheivements: {car.acheivements}</p>
                     </div>
                 )
